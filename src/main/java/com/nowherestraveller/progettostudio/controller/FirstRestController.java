@@ -1,5 +1,6 @@
 package com.nowherestraveller.progettostudio.controller;
 
+import com.nowherestraveller.progettostudio.component.Automobile;
 import com.nowherestraveller.progettostudio.component.MessageSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,10 +12,13 @@ public class FirstRestController {
     @Value("${miaproprieta.nomeapplicazione}")
     private String miaProprieta;
 
-
     //field injection
     @Autowired
     private MessageSender messageSender;
+    @Autowired
+    private Automobile automobile;
+//    @Autowired
+//    private Moto moto;
 
     @GetMapping("/getP")
     public String getP(){
@@ -25,5 +29,15 @@ public class FirstRestController {
     public String sendAMessage(){
         return messageSender.send();
     }
+
+    @GetMapping("/getDatiAutomobile")
+    public String getDatiAutomobile(){
+        return automobile.getMarchio() +" "+automobile.getModello() ;
+    }
+
+//    @GetMapping("/getInfoMoto")
+//    public String getInfoMoto(){
+//        return "metodo creante: "+moto.getCreator()+", data creazione: "+moto.getCreatedAt().toString();
+//    }
 
 }
