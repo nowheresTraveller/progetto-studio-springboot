@@ -43,6 +43,12 @@ public class RegularExpressionTest {
         //a{3,} --> il pattern è una stringa che indica che il testo deve contenere minimo 3 a fino all'infinito
         //[ab]{3,4} -->//a{3,4} --> il pattern è una stringa che indica che il testo deve contenere una combinazione di caratteri a,b
         //                          che forma una stringa di 4 caratteri
+        //(ciao) --> Il patter è una stringa che indica che il testo deve contenere ciao. Con le parentesi tonde si
+//                     indica che ciao è un gruppo
+        //([a-c]+) --> Il pattern è un gruppo che rappresenta una o più occorrenza di una lettera tra a e c.
+        //(?:[0-9]+) --> gruppo "non capting"
+        //(ciao)(mondo) \1 --> back reference al primo gruppo (si fà il doppione)
+        // \1ciao|(mano) --> il back capture su mano in questo caso funzione(forse perchè c'è l'or)
 
     }
 

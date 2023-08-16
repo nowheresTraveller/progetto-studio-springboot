@@ -1,12 +1,7 @@
 package com.nowherestraveller.progettostudio.test;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
-import java.util.regex.Pattern;
 
 public class LambdaExpressionTest {
 
@@ -28,7 +23,8 @@ public class LambdaExpressionTest {
         System.out.println("Test 2 : " +p.test(4));
 
         //TOdo fare regular expression e Logging
-        //TODO studiare classe per gestire file
+        //TODO gestire memoria con java
+
 
 
         Object o= new Scanner(System.in);

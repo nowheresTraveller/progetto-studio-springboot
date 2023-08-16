@@ -1,0 +1,8 @@
+ago 16, 2023 11:52:01 AM com.nowherestraveller.progettostudio.test.logging.LoggingTest main
+INFO: Inizio file log!
+ago 16, 2023 11:52:01 AM com.nowherestraveller.progettostudio.test.logging.LoggingTest main
+SEVERE: ciao
+ago 16, 2023 11:52:01 AM com.nowherestraveller.progettostudio.test.logging.LoggingTest main
+WARNING: mondo
+ago 16, 2023 11:52:01 AM com.nowherestraveller.progettostudio.test.logging.LoggingTest main
+SEVERE: Ho settato il logger a severe!, buonasera
