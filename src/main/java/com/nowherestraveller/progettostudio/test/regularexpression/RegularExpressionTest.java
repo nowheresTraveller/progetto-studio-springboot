@@ -1,4 +1,4 @@
-package com.nowherestraveller.progettostudio.test;
+package com.nowherestraveller.progettostudio.test.regularexpression;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.nowherestraveller.progettostudio.test;
+package com.nowherestraveller.progettostudio.test.managefile;
 
 import java.io.*;
 import java.util.ArrayList;

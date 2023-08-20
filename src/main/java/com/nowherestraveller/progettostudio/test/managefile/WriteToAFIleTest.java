@@ -1,4 +1,4 @@
-package com.nowherestraveller.progettostudio.test;
+package com.nowherestraveller.progettostudio.test.managefile;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

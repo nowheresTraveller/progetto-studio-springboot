@@ -1,4 +1,4 @@
-package com.nowherestraveller.progettostudio.test;
+package com.nowherestraveller.progettostudio.test.lambdaexpr;
 
 import java.util.Scanner;
 import java.util.function.Predicate;
@@ -22,7 +22,7 @@ public class LambdaExpressionTest {
         System.out.println("Test 1 : " + p.test(2));
         System.out.println("Test 2 : " +p.test(4));
 
-        //TOdo fare regular expression e Logging
+        //TOdo fare regular expression
         //TODO gestire memoria con java
 
 

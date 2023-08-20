@@ -1,4 +1,4 @@
-package com.nowherestraveller.progettostudio.test;
+package com.nowherestraveller.progettostudio.test.lambdaexpr;
 
 @FunctionalInterface
 public interface MyFunctionalInterface {
